@@ -19,7 +19,6 @@ The **Job Scheduler** is a multithreaded Python application that implements the 
 
 - Python 3.8 or higher
 - Dependencies (install via `setup.py` or manually):
-  - None by default (adjust if additional libraries are used)
 
 ## Installation
 
@@ -31,6 +30,10 @@ The **Job Scheduler** is a multithreaded Python application that implements the 
 2. Install the package:
     ```bash
     pip install .
+    ```
+3. Install the requirements:
+     ```bash
+    pip install -r requirements.txt
     ```
 
 ## Usage
